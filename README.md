@@ -8,17 +8,15 @@ This is a basic version of Conway's Game of Life made in Game Maker Studio 2, us
 This is based off of the Wikipedia article for the game's rules which can be found here:
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 ----------------------------------
-This was made during my Winter break after taking a semester of 
-Data Structures and Algorithms at Suffolk County Community College.
-----------------------------------
+
 
 CONTROLS
 
-Left Mouse Button > Bring dead cell to life
-Right Mouse Button > Kill living cell
-ENTER > Begin Game and Lose Mouse Control
-R > Reset Game
-H > Toggle Viewing Rules and Credits
+LMB > Bring dead cell to life <br>
+RMB > Kill living cell <br>
+ENTER > Begin Game and Lose Mouse Control <br>
+R > Reset Game <br>
+H > Toggle Viewing Rules and Credits <br>
 
 ----------------------------------
 Known structures such as Gliders and Spaceships all work as expected.
@@ -26,7 +24,7 @@ The game keeps track of what Cells stay alive and which ones don't by checking
 each cells' surroundings after a certain timer reaches its midpoint. 
 Then, at the end of the timer, all the Cell's adjust their life/death status based on the
 information gather at the midpoint.
-
+ <br> <br>
 The game runs at 60FPS and the timer is based off of the FPS as well.
 ex: After 10 frames, the timer will reach its' end and reset.
 ----------------------------------
