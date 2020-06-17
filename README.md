@@ -28,4 +28,4 @@ information gather at the midpoint.
 The game runs at 60FPS and the timer is based off of the FPS as well.
 ex: After 10 frames, the timer will reach its' end and reset.
 ----------------------------------
-It was interesting making this and I'm looking to recreate this project in JavaFX as well.
+It was interesting making this and I may recreate this project in other languages as well.
